@@ -176,14 +176,8 @@ const iconCSS = css`
   height: 19px;
 `;
 
-export const CommentIcon = styled(Chat)`
-  ${iconCSS}
-`;
+export const CommentIcon = iconCSS;
 
-export const RetweetIcon = styled(Retweet)`
-  ${iconCSS}
-`;
+export const RetweetIcon = iconCSS;
 
-export const LikeIcon = styled(Favorite)`
-  ${iconCSS}
-`;
+export const LikeIcon = iconCSS;

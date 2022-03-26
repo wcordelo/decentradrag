@@ -27,37 +27,37 @@ const MenuBar: React.FC = () => {
         <Logo />
 
         <MenuButton>
-          <HomeIcon />
+          {/* <HomeIcon /> */}
           <span>Home</span>
         </MenuButton>
 
         <MenuButton>
-          <ExploreIcon />
+          {/* <ExploreIcon /> */}
           <span>Explore</span>
         </MenuButton>
 
         <MenuButton>
-          <BellIcon />
+          {/* <BellIcon /> */}
           <span>Notifications</span>
         </MenuButton>
 
         <MenuButton>
-          <EmailIcon />
+          {/* <EmailIcon /> */}
           <span>Messages</span>
         </MenuButton>
 
         <MenuButton>
-          <FavoriteIcon />
+          {/* <FavoriteIcon /> */}
           <span>Bookmarks</span>
         </MenuButton>
 
         <MenuButton>
-          <ListIcon />
+          {/* <ListIcon /> */}
           <span>Lists</span>
         </MenuButton>
 
         <MenuButton className="active">
-          <ProfileIcon />
+          {/* <ProfileIcon /> */}
           <span>Profile</span>
         </MenuButton>
 

@@ -73,15 +73,15 @@ const Tweet: React.FC<PropsType> = () => {
 
               <Icons>
                 <Status>
-                  <CommentIcon />
+                  {/* <CommentIcon /> */}
                   {user.commentscount}
                 </Status>
                 <Status>
-                  <RetweetIcon />
+                  {/* <RetweetIcon /> */}
                   {user.retweetscount}
                 </Status>
                 <Status onClick={() => setLikeCounter(likeCounter + 1)}>
-                  <LikeIcon />
+                  {/* <LikeIcon /> */}
                   {user.likecount + likeCounter}
                 </Status>
               </Icons>

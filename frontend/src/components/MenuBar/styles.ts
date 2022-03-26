@@ -125,33 +125,19 @@ const iconCSS = css`
   color: var(--white);
 `;
 
-export const HomeIcon = styled(Home)`
-  ${iconCSS}
-`;
+export const HomeIcon = iconCSS;
 
-export const ExploreIcon = styled(Hashtag)`
-  ${iconCSS}
-`;
+export const ExploreIcon = iconCSS;
 
-export const BellIcon = styled(Notifications)`
-  ${iconCSS}
-`;
+export const BellIcon = iconCSS;
 
-export const EmailIcon = styled(Email)`
-  ${iconCSS}
-`;
+export const EmailIcon = iconCSS;
 
-export const FavoriteIcon = styled(BookmarkBorder)`
-  ${iconCSS}
-`;
+export const FavoriteIcon = iconCSS;
 
-export const ListIcon = styled(ListAlt)`
-  ${iconCSS}
-`;
+export const ListIcon = iconCSS;
 
-export const ProfileIcon = styled(Person)`
-  ${iconCSS}
-`;
+export const ProfileIcon = iconCSS;
 
 export const Botside = styled.div`
   margin-top: 20px;

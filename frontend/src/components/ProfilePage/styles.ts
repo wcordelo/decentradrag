@@ -116,13 +116,9 @@ const iconCSS = css`
   color: var(--gray);
 `;
 
-export const LocationIcon = styled(LocationOn)`
-  ${iconCSS}
-`;
+export const LocationIcon = iconCSS;
 
-export const CakeIcon = styled(Cake)`
-  ${iconCSS}
-`;
+export const CakeIcon = iconCSS;
 
 export const Followage = styled.div`
   display: flex;
