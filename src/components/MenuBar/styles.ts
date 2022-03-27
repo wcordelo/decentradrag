@@ -1,3 +1,4 @@
+import { Explore } from '@styled-icons/material-outlined';
 import styled, { css } from 'styled-components';
 
 import {
@@ -129,17 +130,29 @@ export const HomeIcon = styled(Home)`
   ${iconCSS};
 `;
 
-export const ExploreIcon = iconCSS;
+export const ExploreIcon = styled(Explore)`
+  ${iconCSS};
+`;
 
-export const BellIcon = iconCSS;
+export const BellIcon = styled(Explore)`
+${iconCSS};
+`;
 
-export const EmailIcon = iconCSS;
+export const EmailIcon = styled(Explore)`
+${iconCSS};
+`;
 
-export const FavoriteIcon = iconCSS;
+export const FavoriteIcon = styled(BookmarkBorder)`
+${iconCSS};
+`;
 
-export const ListIcon = iconCSS;
+export const ListIcon = styled(ListAlt)`
+${iconCSS};
+`;
 
-export const ProfileIcon = iconCSS;
+export const ProfileIcon = styled(Person)`
+${iconCSS};
+`;
 
 export const Botside = styled.div`
   margin-top: 20px;

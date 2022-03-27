@@ -5,6 +5,7 @@ import {
   Header,
   ProfileInfo,
 } from './styles';
+import GlobalStyles from '../../styles/GlobalStyles';
 
 const Main: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const Main: React.FC = () => {
         </ProfileInfo>
       </Header>
       <ProfilePage />
+      <GlobalStyles />
     </Container>
   );
 };

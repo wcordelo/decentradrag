@@ -101,10 +101,18 @@ export const iconCSS = css`
   }
 `;
 
-export const HomeIcon = iconCSS;
+export const HomeIcon = styled(Home)`
+  ${iconCSS};
+`;
 
-export const SearchIcon = iconCSS;
+export const SearchIcon = styled(Search)`
+  ${iconCSS};
+`;
 
-export const BellIcon = iconCSS;
+export const BellIcon = styled(Notifications)`
+  ${iconCSS};
+`;
 
-export const EmailIcon = iconCSS;
+export const EmailIcon = styled(Email)`
+  ${iconCSS};
+`;
