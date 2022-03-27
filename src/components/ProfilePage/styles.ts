@@ -21,8 +21,7 @@ export const Banner = styled.div`
   flex-shrink: 0;
 
   width: 100%;
-  height: min(33vw, 199px);
-  background-image: url('https://1.bp.blogspot.com/-lg73Nw76yCc/V9_EnSSngLI/AAAAAAAAWxY/bQtB8s4wWPsvzsac3xZYbP--23d-KugzwCLcB/s1600/StarCIO%2BLess%2BCode.jpg');
+  height: min(33vw, 99px);
 
   position: relative;
 `;

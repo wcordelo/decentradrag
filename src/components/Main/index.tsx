@@ -12,8 +12,7 @@ const Main: React.FC = () => {
     <Container>
       <Header>
         <ProfileInfo>
-          <strong>Elton Lazzarin</strong>
-          <span>32 Posts</span>
+          <strong>Manada</strong>
         </ProfileInfo>
       </Header>
       <ProfilePage />

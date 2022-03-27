@@ -28,7 +28,7 @@ export default createGlobalStyle`
   }
 
   :root {
-    --primary: #000;
+    --primary: #2D2B4C;
     --secondary: #15181c;
     --search: #202327;
     --white: #d9d9d9;
@@ -36,8 +36,8 @@ export default createGlobalStyle`
     --outline: #2f3336;
     --retweet: #00c06b;
     --like: #e8265e;
-    --twitter: #33a1f2;
-    --twitter-dark-hover: #011017;
-    --twitter-light-hover: #2c8ed6;
+    --twitter: #ffffff;
+    --twitter-dark-hover: #24223d;
+    --twitter-light-hover: #6c6b82;
   }
 `;
